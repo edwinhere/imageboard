@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imageboard</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/peerjs@1.4.7/dist/peerjs.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@3.18.0/dist/tf.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/nsfwjs@2.4.2/dist/nsfwjs.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Imageboard</h1>
+            <div class="connection-status">
+                <span id="peer-count">0 peers connected</span>
+                <div id="peer-id-display"></div>
+            </div>
+        </header>
+
+        <div class="post-form">
+            <input type="text" id="image-url" placeholder="Image URL">
+            <textarea id="comment-input" placeholder="Comment"></textarea>
+            <button id="post-button">Post</button>
+        </div>
+
+        <div id="board" class="board"></div>
+    </div>
+
+    <!-- Full page post view -->
+    <div id="post-view" class="post-view">
+        <a href="#" class="close-button">×</a>
+        <div class="post-view-content">
+            <img class="post-view-image" src="" alt="">
+            <div class="post-view-details">
+                <div class="post-view-comment"></div>
+                <div class="post-view-timestamp"></div>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="script.js"></script>
+</body>
+</html> 

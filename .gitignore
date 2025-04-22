@@ -1,0 +1,29 @@
+# System files
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Editor directories and files
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Dependency directories
+node_modules/
+venv/
+__pycache__/
+*.py[cod]
+
+# Build and distribution
+dist/
+build/
+*.egg-info/
+
+# Environment and secrets
+.env
+.env.local
+*.pem
+*.key
+*.cert
