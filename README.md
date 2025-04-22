@@ -2,6 +2,8 @@
 
 A decentralized imageboard platform that allows users to share and discuss images in a peer-to-peer network. This project combines modern web technologies with peer-to-peer networking to create a censorship-resistant image sharing platform.
 
+![Screen Shot 2025-04-23 at 00 34 11](https://github.com/user-attachments/assets/94a5d019-cead-48dc-9f03-02f373c95c1c)
+
 ## Features
 
 - Decentralized peer-to-peer architecture
@@ -20,12 +22,6 @@ A decentralized imageboard platform that allows users to share and discuss image
 ## Hosting Instructions
 
 The application consists of static files that can be hosted on any web server.
-## Configuration
-
-The application can be configured through the following files:
-
-- `config.js`: Main configuration file for peer-to-peer settings
-- `index.html`: Main entry point and UI configuration
 
 ## Contributing
 
